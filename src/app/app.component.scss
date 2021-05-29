@@ -1,0 +1,21 @@
+ion-split-pane{ 
+    --border: none !important;
+    ion-menu{
+     --background: rgba(0,0,0,.3) !important; 
+        ion-content{            
+            --background: transparent !important; 
+            ion-list-header{ 
+                --background: transparent !important;
+                --color: #FFFFFF !important;   
+            }
+            ion-list {
+                background: transparent !important;
+            }
+            ion-item{
+                --background: transparent !important;
+                 --color: #FFFFFF !important;
+                 ion-icon{ padding-right: 10px !important; }
+            }
+        }
+    }
+}
